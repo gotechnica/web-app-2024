@@ -95,6 +95,9 @@ function getGroupTable(groupName) {
   return physicalLocations[groupName];
 }
 
+const virtualSubmissions = [];
+const inPersonSubmissions = [];
+
 // using csvtojson, convert to json and make it ez pz to work with
 csv()
   .fromFile(devpostFile) // change this path to the devpost csv (not sorted by opt-in prize)
@@ -104,79 +107,21 @@ csv()
         if (item['Project Title'] !== null && item['Project Status'] !== 'Draft' && item['Project Status'] !== 'Submitted (Hidden)' && item['Opt-In Prizes']) { // idk why drafts show up in this csv, but ignoring them is good
           let isVirtual = item['Attendance'] !== 'In-person'; // is this team presenting virtually or not?
 
+          // Store submissions based on attendance type
           if (isVirtual) {
-            timeReference = virtualTakenTimes;
-          }
-          else{
-            timeReference = physicalTakenTimes;
-          }
-          let technicaPrizes = 0;
-          let submitMlhPrize = false; // checks if team has submitted an mlh prize
-          const personalTimes = {}; // stores timeslots this team is booked for, so as to not overlap demos
-          const prizes = item['Opt-In Prizes'].split(','); // separate all opt-in prizes
-          for (let i = 0; i < prizes.length; i++) { // iterate over all prize categories for this team (comma separated)
-            let demoTime; // resultant time to give for this specific team
-            let prizeName, sponsName; //current prize name and sponsor names
-            // extract sponsor name from category ( this is for a format where the prize category is denoted as: "CategoryName - SponsorName" )
-            
-            // if submitted to mlh prize, don't assign anything
-            let prizeString = prizes[i].trim();
-            if (mlhPrizes.has(prizeString)) {
-              technicaPrizes++;
-              submitMlhPrize = true;
-              continue;
-            }
-            console.log("hi")
-            if (!prizeString.startsWith("Best")) { //non technica prize + mlhPrizes
-              // [prizeName, sponsName] = prizeString; // eslint doesn't like this, but I don't care :))
-              prizeString = prizeString.split(':')
-              sponsName = prizeString[0].trim();
-              prizeName = prizeString[1].trim();
-              if (!linkDict[prizes[i].trim()]) {
-                console.error("Oh no! I didn't find a location for \"" + prizes[i].trim() + "\"! check linkDict.");
-                exit();
-              }
-            } else { //technica prize
-              if (technicaPrizes > 2) {
-                continue;
-              } else {
-                technicaPrizes++;
-                prizeName = prizeString.trim();
-                sponsName = 'Technica'; // since technica prizes don't say 'Technica'
-              }
-            }
-
-            if (!timeReference[prizeName]) { // prize category hasn't been seen yet, initialize JSON object
-              timeReference[prizeName] = {}; // nested json object, initialize new property for this sponsor
-            }
-            // now prize category is set, time to find a valid time
-            demoTime = startTime; // start at the earliest possible time, then let's go through until we find a good fit!
-            let timeResult = timeReference[prizeName][demoTime];
-            // if the current sponsor already has at capacity for this time slot, OR the current team already has a demo for this time slot
-            while ((typeof timeResult !== 'undefined' && timeResult >= numRooms) || personalTimes[demoTime]) { // if either of these mappings exist, the time won't work
-              demoTime = new Date(demoTime.getTime() + lengthOfMeeting * 60000); // try next slot of meetings, increment by length of meeting
-              timeResult = timeReference[prizeName][demoTime];
-            }
-            if (demoTime > endTime) { //keep track of latest demo time
-              endTime = new Date(demoTime.getTime() + lengthOfMeeting * 60000);
-            }
-            let projectTitle = [item['Project Title']];
-            if (projectTitle.toString().includes(',')) { //replace any comments in project title, can mess up csv
-              projectTitle = projectTitle.toString().replace(",", "")
-            }
-            //in the case of breakout rooms, check if a demo is already present and if so, increment it. otherwise, assign to 1
-            timeReference[prizeName][demoTime] = (timeResult) ? timeResult + 1 : 1; // update the dictionary entry, add a mapping for this time slot
-            personalTimes[demoTime] = 1; // store that we now have a demo for this time slot
-            finalCSV.push([projectTitle, demoTime, new Date(demoTime.getTime() + lengthOfMeeting * 60000), prizeName, sponsName, (isVirtual ? linkDict[prizes[i].trim()] : getGroupTable(projectTitle))]);
-          }
-
-          if (submitMlhPrize && !isVirtual) {
-            let projectTitle = [item['Project Title']];
-            finalCSV.push([projectTitle, "", "", "MLH Prizes", "MLH", getGroupTable(projectTitle)]);
+            virtualSubmissions.push(item);
+          } else {
+            inPersonSubmissions.push(item);
           }
         }
       },
     );
+
+    await processSubmissions(virtualSubmissions);
+
+    startTime = new Date(startTime.getTime() + 30 * 60000); // Add 30 minutes buffer
+
+    await processSubmissions(inPersonSubmissions);
 
     console.log(physicalTakenTimes)
     console.log(virtualTakenTimes)
@@ -187,8 +132,78 @@ csv()
       output += `${row.join(',')}\n`;
     });
     // https://www.w3schools.com/nodejs/nodejs_filesystem.asp
-    fs.writeFile('expo_schedule.csv', output, (err) => {
+    fs.writeFile('expo_virtual_schedule.csv', output, (err) => {
       if (err) throw err;
       console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nSchedule Created & Saved Sucessfully! look at expo_schedule.csv for results :)\n\nYour expo starts at: \n-${startTime} \nand ends at: \n-${endTime}!\n\nBest of Luck :)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`);
     });
   });
+
+async function processSubmissions(submissions) {
+  submissions.forEach((item) => {
+    let timeReference = item['Attendance'] !== 'In-person' ? virtualTakenTimes : physicalTakenTimes;
+    let isVirtual = item['Attendance'] !== 'In-person'; // is this team presenting virtually or not?
+    let technicaPrizes = 0;
+    let submitMlhPrize = false; // checks if team has submitted an mlh prize
+    const personalTimes = {}; // stores timeslots this team is booked for, so as to not overlap demos
+    const prizes = item['Opt-In Prizes'].split(','); // separate all opt-in prizes
+    for (let i = 0; i < prizes.length; i++) { // iterate over all prize categories for this team (comma separated)
+      let demoTime; // resultant time to give for this specific team
+      let prizeName, sponsName; //current prize name and sponsor names
+      // extract sponsor name from category ( this is for a format where the prize category is denoted as: "CategoryName - SponsorName" )
+      
+      // if submitted to mlh prize, don't assign anything
+      let prizeString = prizes[i].trim();
+      if (mlhPrizes.has(prizeString)) {
+        technicaPrizes++;
+        submitMlhPrize = true;
+        continue;
+      }
+      if (!prizeString.startsWith("Best")) { //non technica prize + mlhPrizes
+        // [prizeName, sponsName] = prizeString; // eslint doesn't like this, but I don't care :))
+        prizeString = prizeString.split(':')
+        sponsName = prizeString[0].trim();
+        prizeName = prizeString[1].trim();
+        if (!linkDict[prizes[i].trim()]) {
+          console.error("Oh no! I didn't find a location for \"" + prizes[i].trim() + "\"! check linkDict.");
+          exit();
+        }
+      } else { //technica prize
+        if (technicaPrizes > 2) {
+          continue;
+        } else {
+          technicaPrizes++;
+          prizeName = prizeString.trim();
+          sponsName = 'Technica'; // since technica prizes don't say 'Technica'
+        }
+      }
+
+      if (!timeReference[prizeName]) { // prize category hasn't been seen yet, initialize JSON object
+        timeReference[prizeName] = {}; // nested json object, initialize new property for this sponsor
+      }
+      // now prize category is set, time to find a valid time
+      demoTime = startTime; // start at the earliest possible time, then let's go through until we find a good fit!
+      let timeResult = timeReference[prizeName][demoTime];
+      // if the current sponsor already has at capacity for this time slot, OR the current team already has a demo for this time slot
+      while ((typeof timeResult !== 'undefined' && timeResult >= numRooms) || personalTimes[demoTime]) { // if either of these mappings exist, the time won't work
+        demoTime = new Date(demoTime.getTime() + lengthOfMeeting * 60000); // try next slot of meetings, increment by length of meeting
+        timeResult = timeReference[prizeName][demoTime];
+      }
+      if (demoTime > endTime) { //keep track of latest demo time
+        endTime = new Date(demoTime.getTime() + lengthOfMeeting * 60000);
+      }
+      let projectTitle = [item['Project Title']];
+      if (projectTitle.toString().includes(',')) { //replace any comments in project title, can mess up csv
+        projectTitle = projectTitle.toString().replace(",", "")
+      }
+      //in the case of breakout rooms, check if a demo is already present and if so, increment it. otherwise, assign to 1
+      timeReference[prizeName][demoTime] = (timeResult) ? timeResult + 1 : 1; // update the dictionary entry, add a mapping for this time slot
+      personalTimes[demoTime] = 1; // store that we now have a demo for this time slot
+      finalCSV.push([projectTitle, demoTime, new Date(demoTime.getTime() + lengthOfMeeting * 60000), prizeName, sponsName, (isVirtual ? linkDict[prizes[i].trim()] : getGroupTable(projectTitle))]);
+    }
+
+    if (submitMlhPrize && !isVirtual) {
+      let projectTitle = [item['Project Title']];
+      finalCSV.push([projectTitle, "", "", "MLH Prizes", "MLH", getGroupTable(projectTitle)]);
+    }
+  });
+}

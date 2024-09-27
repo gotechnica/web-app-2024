@@ -1,0 +1,230 @@
+team_name,start_time,end_time,prize_category,sponsor_name,location
+Test201,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best AI Powered Solution,Bloomberg Industry Group,1.1
+Test201,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,1.1
+Test201,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,1.1
+Test211,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,1.2
+Test211,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,1.2
+Test221,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,2.1
+Test221,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,2.1
+Test221,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,2.1
+Test231,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,2.2
+Test231,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,2.2
+Test231,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,2.2
+Test241,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,2.3
+Test241,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,2.3
+Test241,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,2.3
+Test251,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,2.4
+Test251,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,2.4
+Test301,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best AI Powered Solution,Bloomberg Industry Group,2.5
+Test301,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,2.5
+Test301,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,2.5
+Test311,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,2.6
+Test311,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,2.6
+Test321,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,2.7
+Test321,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,2.7
+Test321,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,2.7
+Test331,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,3.1
+Test331,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,3.1
+Test331,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,3.1
+Test341,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,3.2
+Test341,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,3.2
+Test341,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,3.2
+Test351,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,3.3
+Test351,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,3.3
+Test2011,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best AI Powered Solution,Bloomberg Industry Group,3.4
+Test2011,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,3.4
+Test2011,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,3.4
+Test2111,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,3.5
+Test2111,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,3.5
+Test2211,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,3.6
+Test2211,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,3.6
+Test2211,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,3.6
+Test2311,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,3.7
+Test2311,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,3.7
+Test2311,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,3.7
+Test2411,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,3.8
+Test2411,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,3.8
+Test2411,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,3.8
+Test2511,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,4.1
+Test2511,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,4.1
+Test3011,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best AI Powered Solution,Bloomberg Industry Group,4.2
+Test3011,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,4.2
+Test3011,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,4.2
+Test3111,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,4.3
+Test3111,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,4.3
+Test3211,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,4.4
+Test3211,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,4.4
+Test3211,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,4.4
+Test3311,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,4.5
+Test3311,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,4.5
+Test3311,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,4.5
+Test3411,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,4.6
+Test3411,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,4.6
+Test3411,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,4.6
+Test3511,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,4.7
+Test3511,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,4.7
+Test2012,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best AI Powered Solution,Bloomberg Industry Group,4.8
+Test2012,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,4.8
+Test2012,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,4.8
+Test2112,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,5.1
+Test2112,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,5.1
+Test2212,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,5.2
+Test2212,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,5.2
+Test2212,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,5.2
+Test2312,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,5.3
+Test2312,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,5.3
+Test2312,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,5.3
+Test2412,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,5.4
+Test2412,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,5.4
+Test2412,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,5.4
+Test2512,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,5.5
+Test2512,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,5.5
+Test3012,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best AI Powered Solution,Bloomberg Industry Group,5.6
+Test3012,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,5.6
+Test3012,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,5.6
+Test3112,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,5.7
+Test3112,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,5.7
+Test3212,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,6.1
+Test3212,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,6.1
+Test3212,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,6.1
+Test3312,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,6.2
+Test3312,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,6.2
+Test3312,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,6.2
+Test3412,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,6.3
+Test3412,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,6.3
+Test3412,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,6.3
+Test3512,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,6.4
+Test3512,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,6.4
+Test2013,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,6.5
+Test2013,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,6.5
+Test2013,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,6.5
+Test2113,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,6.6
+Test2113,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,6.6
+Test2213,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,6.7
+Test2213,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,6.7
+Test2213,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,6.7
+Test2313,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,6.8
+Test2313,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,6.8
+Test2313,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,6.8
+Test2413,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,6.9
+Test2413,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,6.9
+Test2413,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,6.9
+Test2513,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,6.10
+Test2513,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,6.10
+Test3013,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,7.1
+Test3013,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,7.1
+Test3013,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,7.1
+Test3113,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,7.2
+Test3113,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,7.2
+Test3213,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,7.3
+Test3213,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,7.3
+Test3213,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,7.3
+Test3313,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,8.1
+Test3313,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,8.1
+Test3313,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,8.1
+Test3413,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,8.2
+Test3413,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,8.2
+Test3413,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,8.2
+Test3513,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,8.3
+Test3513,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,8.3
+Test2014,Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,9.1
+Test2014,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,9.1
+Test2014,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,9.1
+Test2114,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,9.2
+Test2114,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,9.2
+Test2214,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,9.3
+Test2214,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,9.3
+Test2214,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,9.3
+Test2314,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,10.1
+Test2314,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,10.1
+Test2314,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,10.1
+Test2414,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,10.2
+Test2414,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,10.2
+Test2414,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,10.2
+Test2514,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,10.3
+Test2514,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,10.3
+Test3014,Sun Oct 22 2023 12:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,11.1
+Test3014,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,11.1
+Test3014,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,11.1
+Test3114,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,11.2
+Test3114,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,11.2
+Test3214,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,11.3
+Test3214,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,11.3
+Test3214,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,11.3
+Test3314,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,12.1
+Test3314,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,12.1
+Test3314,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,12.1
+Test3414,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,12.2
+Test3414,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,12.2
+Test3414,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,12.2
+Test3514,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,12.3
+Test3514,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,12.3
+Test2015,Sun Oct 22 2023 12:20:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,13.1
+Test2015,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,13.1
+Test2015,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,13.1
+Test2115,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,13.2
+Test2115,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,13.2
+Test2215,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,13.3
+Test2215,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,13.3
+Test2215,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,13.3
+Test2315,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,14.1
+Test2315,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,14.1
+Test2315,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,14.1
+Test2415,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,14.2
+Test2415,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,14.2
+Test2415,Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,14.2
+Test2515,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,14.3
+Test2515,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,14.3
+Test3015,Sun Oct 22 2023 12:25:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,15.1
+Test3015,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,15.1
+Test3015,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,15.1
+Test3115,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,15.2
+Test3115,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,15.2
+Test3215,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,15.3
+Test3215,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,15.3
+Test3215,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,15.3
+Test4014,Sun Oct 22 2023 12:30:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,5.10
+Test4014,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,5.10
+Test4014,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,5.10
+Test4114,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,1.1
+Test4114,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,1.1
+Test4214,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,1.2
+Test4214,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,1.2
+Test4214,Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:15:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,1.2
+Test4314,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,2.1
+Test4314,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,2.1
+Test4314,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,2.1
+Test4414,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,2.2
+Test4414,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,2.2
+Test4414,Sun Oct 22 2023 12:45:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,2.2
+Test4514,Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,2.3
+Test4514,Sun Oct 22 2023 12:50:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:55:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,2.3
+Test4015,Sun Oct 22 2023 12:35:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:40:00 GMT-0400 (Eastern Daylight Time),Best Hack Promoting Education or Public Health,Bloomberg,2.4
+Test4015,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Best Financial Hack,Capital One,2.4
+Test4015,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Best Education Hack,Technica,2.4
+Test4115,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Best Use of FinTech,T. Rowe Price,2.5
+Test4115,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Best Hack for Sustainability,Optiver,2.5
+Test4215,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Climate Change Sentiment Analysis and Impacts on Housing,Fannie Mae,2.6
+Test4215,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Most “Ever Vigilant” Hack Against Spyware,CACI International,2.6
+Test4215,Sun Oct 22 2023 13:15:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:20:00 GMT-0400 (Eastern Daylight Time),Best Gamification Hack - Create Your Own Reality,Technica,2.6
+Test4315,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Best Accessibility Solution,Technica,2.7
+Test4315,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Best Startup Track Hack,Technica,2.7
+Test4315,Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:15:00 GMT-0400 (Eastern Daylight Time),Best Research Track Hack,Technica,2.7
+Test4415,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Best UI/UX Hack,Technica,3.1
+Test4415,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (College),Technica,3.1
+Test4415,Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:15:00 GMT-0400 (Eastern Daylight Time),Best Beginner Hack (Middle & High School),Technica,3.1
+Test4515,Sun Oct 22 2023 13:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Best Social Good Hack,Technica,3.2
+Test4515,Sun Oct 22 2023 13:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 13:10:00 GMT-0400 (Eastern Daylight Time),Best Active-Wellness/Health Hack - Herbal Apothecary,Technica,3.2
+MLHTest0,,,MLH Prizes,MLH,3.3
+MLHTest1,,,MLH Prizes,MLH,3.4
+MLHTest2,,,MLH Prizes,MLH,3.5
+Test401,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Innovation Hack,Technica,
+Test401,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Use of AI,Technica,
+Test411,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Hack for Social Impact,Technica,
+Test411,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Use of Data,Technica,
+Test421,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Use of Blockchain,Technica,
+Test421,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Hack for Education,Technica,
+Test431,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Mobile App,Technica,
+Test431,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Hack for Accessibility,Technica,
+Test441,Sun Oct 22 2023 12:00:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Best Hack for Health,Technica,
+Test441,Sun Oct 22 2023 12:05:00 GMT-0400 (Eastern Daylight Time),Sun Oct 22 2023 12:10:00 GMT-0400 (Eastern Daylight Time),Best Use of IoT,Technica,
