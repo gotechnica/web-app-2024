@@ -21,7 +21,7 @@ const csv = require('csvtojson'); // using csvtojson to convert from... well, cs
 const fs = require('fs'); // including Node.js file system module
 const { exit } = require('process');
 const devpostFile = "ai_submissions.csv";
-const numRooms = 1; // number of max. breakout rooms per prize category
+const numRooms = 2; // number of max. breakout rooms per prize category
 const lengthOfMeeting = 5; // in minutes, can be changed to whatever length of expo is
 let startTime = new Date(2023, 9, 22, 12, 0); // time that expo starts, will start assigning demos from here (month is 0-based)
 const physicalLocations = {} // dictionary mapping group name to physical location
@@ -32,6 +32,32 @@ const finalCSV = []; // array of arays, will hold final results
 let endTime = startTime;
 let latestTableRow = 1;
 let latestTableCol = 0;
+let numSponsors =  {
+  "Bloomberg: Best Hack Promoting Education or Public Health" : 1,
+  "Capital One: Best Financial Hack" : 1,
+  "Best Education Hack" : 1,
+  "Bloomberg Industry Group: Best AI Powered Solution" : 1,
+  "T. Rowe Price: Best Use of FinTech" : 1,
+  "Optiver: Best Hack for Sustainability" : 1,
+  "Fannie Mae: Climate Change Sentiment Analysis and Impacts on Housing" : 1,
+  "CACI International: Most “Ever Vigilant” Hack Against Spyware" : 1,
+  "Best Gamification Hack - Create Your Own Reality" : 1,
+  "Best Accessibility Solution" : 1,
+  "Best Startup Track Hack" : 1,
+  "Best Research Track Hack" : 1,
+  "Best UI/UX Hack" : 1,
+  "Best Beginner Hack (College)" : 1,
+  "Best Beginner Hack (Middle & High School)" : 1,
+  "Best Social Good Hack" : 1,
+  "Best Active-Wellness/Health Hack - Herbal Apothecary" : 1,
+  "Best Use of Google Cloud" : 1,
+  "Best Use of MongoDB Atlas" : 1,
+  "Most Creative Use of GitHub" : 1,
+  "Best Domain Name from GoDaddy Registry" : 1,
+  "Best Use of MATLAB" : 1,
+  "Best Use of Hedera" : 1,
+  "Best Use of Circle" : 1
+}
 
 const linkDict = { //dictionary mapping each prize category to gather link
   "Bloomberg: Best Hack Promoting Education or Public Health" : "https://app.gather.town/app/2x7GW9NhurfCG9pf/Technica%202023-2024?spawnToken=IBOcPturRx6K1VSL8akC",
@@ -127,14 +153,13 @@ csv()
     console.log(virtualTakenTimes)
     console.log(physicalLocations)
 
-    let output = 'team_name,start_time,end_time,prize_category,sponsor_name,location\n'; // define headings
-    finalCSV.forEach((row) => { // creating csv format from array of arrays
-      output += `${row.join(',')}\n`;
-    });
-    // https://www.w3schools.com/nodejs/nodejs_filesystem.asp
-    fs.writeFile('expo_virtual_schedule.csv', output, (err) => {
+    // Change the output to JSON format
+    const jsonOutput = JSON.stringify(finalCSV, null, 2); // Convert finalCSV to JSON format
+
+    // Write the JSON output to a file
+    fs.writeFile('test.json', jsonOutput, (err) => { // Change file name to .json
       if (err) throw err;
-      console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nSchedule Created & Saved Sucessfully! look at expo_schedule.csv for results :)\n\nYour expo starts at: \n-${startTime} \nand ends at: \n-${endTime}!\n\nBest of Luck :)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`);
+      console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nSchedule Created & Saved Successfully! look at expo_virtual_schedule.json for results :)\n\nYour expo starts at: \n-${startTime} \nand ends at: \n-${endTime}!\n\nBest of Luck :)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`);
     });
   });
 
@@ -183,6 +208,8 @@ async function processSubmissions(submissions) {
       // now prize category is set, time to find a valid time
       demoTime = startTime; // start at the earliest possible time, then let's go through until we find a good fit!
       let timeResult = timeReference[prizeName][demoTime];
+
+
       // if the current sponsor already has at capacity for this time slot, OR the current team already has a demo for this time slot
       while ((typeof timeResult !== 'undefined' && timeResult >= numRooms) || personalTimes[demoTime]) { // if either of these mappings exist, the time won't work
         demoTime = new Date(demoTime.getTime() + lengthOfMeeting * 60000); // try next slot of meetings, increment by length of meeting
