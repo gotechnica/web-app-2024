@@ -138,6 +138,7 @@ csv()
             timeReference = physicalTakenTimes;
           }
           let technicaPrizes = 0;
+          let numSponsorPerPrize = numSponsors[item["Project Title"]];
           let submitMlhPrize = false; // checks if team has submitted an mlh prize
           const personalTimes = {}; // stores timeslots this team is booked for, so as to not overlap demos
           const prizes = item["Opt-In Prizes"].split(","); // separate all opt-in prizes
@@ -188,7 +189,7 @@ csv()
             let timeResult = timeReference[prizeName][demoTime];
             // if the current sponsor already has at capacity for this time slot, OR the current team already has a demo for this time slot
             while (
-              (typeof timeResult !== "undefined" && timeResult >= numRooms) ||
+              (typeof timeResult !== "undefined" && timeResult >= numSponsorPerPrize) ||
               personalTimes[demoTime]
             ) {
               // if either of these mappings exist, the time won't work
