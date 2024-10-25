@@ -32,6 +32,8 @@ const finalCSV = []; // array of arays, will hold final results
 let endTime = startTime;
 let latestTableRow = 1;
 let latestTableCol = 0;
+const totalTables = 186;
+let counter = 0;
 let numSponsors =  {
   "Bloomberg: Best Hack Promoting Education or Public Health" : 1,
   "Capital One: Best Financial Hack" : 1,
@@ -84,39 +86,13 @@ const mlhPrizes = new Set(["Best Use of Google Cloud", "Best Use of MongoDB Atla
 
 function getGroupTable(groupName) {
   if (!physicalLocations[groupName]) {
-    if(latestTableRow === 5 && latestTableCol === 10) {
+    counter += 1;
+    if(counter >= totalTables) {
       console.log("Number of in-person teams exceed table space, doubling up has occured")
-      latestTableRow = 1;
-      latestTableCol = 0;
+      counter = 0;
     }
-
-    let maxTables = function() {
-      switch (latestTableRow) {
-        case 1:
-          return 2;
-        case 2:
-        case 5:
-          return 7;
-        case 3:
-        case 4:
-          return 8;
-        case 6:
-          return 10;
-        default:
-          return 3;
-      }
-    }();
-
-    if (latestTableRow === 15 && latestTableCol === maxTables) {
-      latestTableRow = 5;
-      latestTableCol = 10;
-    } else if (latestTableCol === maxTables) {
-      latestTableRow++;
-      latestTableCol = 1; 
-    } else {
-      latestTableCol++;
-    }
-    physicalLocations[groupName] = `${latestTableRow}.${latestTableCol}`;
+    
+    physicalLocations[groupName] = `${counter}`;
   }
   return physicalLocations[groupName];
 }
@@ -178,6 +154,7 @@ async function processSubmissions(submissions) {
       
       // if submitted to mlh prize, don't assign anything
       let prizeString = prizes[i].trim();
+      console.log(prizeString)
       if (mlhPrizes.has(prizeString)) {
         technicaPrizes++;
         submitMlhPrize = true;
@@ -188,6 +165,7 @@ async function processSubmissions(submissions) {
         prizeString = prizeString.split(':')
         sponsName = prizeString[0].trim();
         prizeName = prizeString[1].trim();
+        console.log(sponsName, prizeName)
         if (!linkDict[prizes[i].trim()]) {
           console.error("Oh no! I didn't find a location for \"" + prizes[i].trim() + "\"! check linkDict.");
           exit();

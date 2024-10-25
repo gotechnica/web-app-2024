@@ -1,0 +1,192 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Submitter First Name,Submitter Last Name,Submitter Email,Notes,Are You Being Judged In Person Or Virtually?,Please Type Your Email Down Below.,Team Colleges/Universities,Additional Team Member Count,Team Member 1 First Name,Team Member 1 Last Name,Team Member 1 Email,...
+Untitled,"",Draft,Pending,Manage team,10/10/2024 21:31:36,"Inspiration
+
+What it does
+
+How we built it
+
+aknfdoivnslfsivoalvnpaovz
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for meh
+","",,"","",Victoria,Anaele,victoria.anaele27@gmail.com,,"","",University of Maryland - College Park,0
+Aegis,"",Submitted,Pending,Project details,10/12/2024 23:14:33,"Inspiration
+
+This past year, the highschool that my partner (Aiden) and I (Kevin) went to had 2 bomb threats. Additionally, I had transferred school districts prior to going to my current highschool, and the highschool that I was supposed to go had a few knife stabbings that were on the news. Many of my friends felt unsafe and actually chose to go to a different highschool because of it. Overall, we believe safety should never interfere with education. 
+
+What it does
+
+Aegis inputs a video and returns an annotated video with gun and knife detections along with a depth map video. It also has a dashboard so the user can track statistics. 
+
+How we built it
+
+We trained a custom YOLOv8 model and used the Depth Anything V2 model for our machine learning needs. We used docker to deploy to a cloud Gpu on Paperspace. We used a Python Flask REST API to hook everything up. We used React, Tailwind CSS and a few CSS libraries in the frontend to deploy to DigitalOcean. We used Firebase for authentication.
+
+Challenges we ran into
+
+While trying to set up our website on DigitalOcean, our website wasn’t correctly rendering with the necessary JS and CSS, which was due to our website only partially using React Router.The main reason why only some of our website was because we weren’t sure how to implement React Routing with our flask backend authorization. Eventually, after a couple hours searching online, and some troubleshooting, we were able to fully implement React Routing into our website. 
+
+Accomplishments that we're proud of
+
+We are very proud of hosting this as a public website on DigitalOcean. We are also very proud of finishing this project in time. A few other accomplishments in no particular order are: Setting up Firebase authentication, using Docker, deploying API to a cloud GPU.
+
+What we learned
+
+We learned a lot from this project, including React Routing, Firebase authentication, docker, and the general process for deploying a website.  
+
+What's next for Aegis
+
+We want to expand this technology to make it more efficient. Currently, our cloud GPU is very costly so we hope to migrate to a lower-cost solution, making the software more inclusive. Additionally, we hope to partner with nonprofits and startups to enable this solution in the real world. 
+","https://cac-project-l5nu9.ondigitalocean.app/, https://github.com/aidenjcheng/cac-project",https://youtu.be/iLhWfBh2cLk,"Best Use of Circle","html, css, ts, react-js, digitalocean, python, tailwind-css, shadcn-ui-library, firebase, paperspace, docker",aiden,Cheng,aidenjcheng12@gmail.com,,"","","Walt Whitman Highscshool, Walt Whitman High School",1,Kevin,Xia,kevinx8017@gmail.com
+FlashGPT - Fastest AI,https://technica-2024.devpost.com/submissions/566293-flashgpt-fastest-ai,Submitted,Pending,Submit,10/14/2024 10:43:47,"Inspiration
+
+The inspiration for FlashGPT came from the need for an AI assistant that can provide instant, accurate responses in real-time. With the growing demand for faster information retrieval and seamless interaction, we aimed to create a tool that leverages cutting-edge AI models to deliver lightning-fast performance.
+
+What it does
+
+FlashGPT is an AI-powered assistant designed to provide rapid and precise responses to user queries. It integrates advanced language models like Microsoft Llama, Gemma, and Mistral to understand and process information quickly, making it ideal for users who need immediate answers and efficient communication.
+
+How we built it
+
+We built FlashGPT using a combination of state-of-the-art AI models and optimized algorithms to enhance processing speed. The backend is powered by a robust infrastructure that ensures low latency and high availability, while the front end is designed to provide a user-friendly experience. By leveraging cloud technologies and efficient model deployment strategies, we achieved a seamless integration of multiple AI models.
+
+Challenges we ran into
+
+One of the biggest challenges we faced was optimizing the response time without compromising the accuracy of the answers. Balancing the trade-off between speed and reliability required extensive testing and fine-tuning of the models. Additionally, integrating multiple AI models to work cohesively presented a unique set of challenges that we had to overcome.
+
+Accomplishments that we're proud of
+
+We’re proud to have developed an AI assistant that achieves exceptionally fast response times while maintaining high accuracy. Successfully integrating multiple AI models and optimizing their performance was a significant achievement. Moreover, creating a user-friendly interface that allows for smooth interactions is something we are particularly proud of.
+
+What we learned
+
+Throughout the development of FlashGPT, we learned a great deal about the complexities of AI model optimization and deployment. We gained insights into balancing speed with accuracy and the importance of robust infrastructure for handling real-time queries. This project also reinforced the value of collaboration and iterative improvement in the development process.
+
+What's next for FlashGPT
+
+Looking ahead, we plan to continue refining FlashGPT’s performance and expanding its capabilities. We aim to incorporate more advanced AI models and enhance the assistant's understanding of user intent. Additionally, we’re exploring opportunities to integrate FlashGPT into various platforms and applications to make it accessible to a wider audience.
+",https://flashgpt.tech/,https://youtu.be/_QOd-DtATV8,"","llm, nlm, natural-language-processing, large-language-model",Rojan,Sapkota,rojansapkota0@gmail.com,,virtual,contactrojansapkota@gmail.com,Bernhardt College,0
+Live Blind Assistant,https://technica-2024.devpost.com/submissions/566294-live-blind-assistant,Submitted (Hidden),Pending,Submit,10/14/2024 10:44:47,"Inspiration
+
+The inspiration for our Live Assistant for Blind People came from the need to improve accessibility for individuals with visual impairments. We wanted to create a tool that could provide real-time assistance in navigating their surroundings, identifying objects, and offering descriptions of their environment. Our goal was to empower blind users with greater independence and confidence in their daily lives through the use of cutting-edge AI and computer vision technologies.
+
+What it does
+
+The Live Assistant for Blind People is an AI-powered app that helps visually impaired individuals by capturing images from their surroundings and providing detailed audio descriptions. Using speech recognition, the app allows users to issue voice commands to describe objects, environments, or even read text from books. Additionally, a live mode captures images at intervals to warn the user of any potential hazards or provide assistance while on the move.
+
+How I built it
+
+We built the app using Python and integrated the Google Gemini API for generating descriptive text from images. We also utilized OpenCV for capturing images through the camera and Pyttsx3 for converting text to speech. The app’s interface is built using Tkinter to make it simple and user-friendly, and we incorporated the OpenWeather API to offer additional information like weather updates. The real-time processing capabilities of Gemini API allowed us to create a seamless and efficient experience for the users.
+
+Challenges I ran into
+
+One of the main challenges we faced was optimizing the accuracy of image descriptions while keeping response times low. Capturing relevant details about objects and ensuring the descriptions were concise yet informative took a lot of fine-tuning. Additionally, developing a voice command system that could reliably recognize and respond to user input was challenging, especially when dealing with noisy environments or different accents.
+
+Accomplishments that I'm proud of
+
+We’re incredibly proud of creating an application that truly makes a difference in the lives of blind individuals. Successfully integrating speech recognition and AI-powered descriptions was a huge milestone. The app's ability to detect potential hazards and offer real-time assistance is a feature we are especially proud of, as it addresses a critical need for user safety.
+
+What I learned
+
+During the development process, we learned a lot about the importance of accessibility in software design. We deepened our understanding of AI model integration and learned how to balance performance and accuracy in real-time systems. Additionally, working with user feedback from the blind community gave us valuable insights into designing solutions that prioritize user needs and experience.
+
+What's next for Live Blind Assistant
+
+In the future, we plan to enhance the live mode to include object tracking and more sophisticated hazard detection. We are also exploring ways to improve the accuracy of text recognition for reading printed materials and expand the language support for users worldwide. Ultimately, our goal is to make this app a staple tool for visually impaired individuals, helping them navigate and engage with their environment confidently and independently.
+","",https://youtu.be/oIEYSoPTomI,"","opencv, speechrecognition, pyttsx3, imagerecognition, textrecognition",Rojan,Sapkota,rojansapkota0@gmail.com,,virtual,hackathon@rojansapkota.com.np,Bernhardt College,0
+Esport Manager Pro,"",Draft,Pending,Project overview,10/14/2024 20:25:41,"Inspiration
+
+Inspiration
+
+We wanted to simplify esports team management with AI, offering real-time player insights and decision-making tools.
+
+What We Learned
+
+We gained experience in building AI-powered platforms and learned to integrate real-time data efficiently.
+
+How We Built It
+
+Using AI algorithms and a clean user interface.
+
+Our biggest challenge was ensuring seamless data integration while maintaining a user-friendly experience.
+
+What it does
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Esport Manager Pro
+","",,"","",Gheiasi,Gheiasi,gheiasiabdul@gmail.com,,"","",Ryerson University,0
+Realtime chat APP,https://technica-2024.devpost.com/submissions/567727-realtime-chat-app,Submitted,Pending,Submit,10/18/2024 00:55:32,"What it does
+
+Google User Authentication: Users can be able to log in and log out using their Google accounts via Firebase Authentication.
+
+Chat Rooms: Users should be able to create, join, and leave chat rooms.
+
+Real-Time Messaging: Messages sent by users should appear in the chat room in real time.
+
+Share File: It allows users to upload and share various types of files, including images and PDFs using Pinata IPFS.
+
+Message History: The chat application should store the history of messages for each chat room, which should be visible to users when they join the room.
+
+Private Messaging: Users should be able to send private messages to other users.
+
+How we built it
+
+React JS
+Pinata
+Firebase Firestore
+Firebase Realtime database
+Firebase Authentication
+",https://realtime-chat-app-pinata.vercel.app,https://youtu.be/Py2H9RZvvk8,"Cheshire Classroom Creation: Best Education Hack, Looking Glass Glam: Best UI/UX Hack, WonderBridge Connecting All Users: Best Accessibility Solution, ICF: Best Hack for Real-World Change","firebase-realtime, react, pinata",hasnain,sayyed,hasnainsayyed485@gmail.com,,in-person,hasnainsayyed833@gmail.com,"",0
+Untitled,"",Draft,Pending,Manage team,10/20/2024 10:23:06,"","",,"","",Ruturaj,Khondre,ruturajkhondre01@gmail.com,,"","","D. Y. Patil School of Engineering & Management Education Society (Deemed to be University), Kolhapur, Maharashtra",0
+SheLeads,"",Draft,Pending,Project overview,10/20/2024 14:14:02,"","",,"","",Shrey,Jain,shreyansjain.placement@gmail.com,,"","",Christ university bangalore,0
+Untitled,"",Draft,Pending,Manage team,10/20/2024 14:34:50,"","",,"","",Surojit,Mondal,gobindomondal539@gmail.com,,"","",Guru Ghasidas Vishwavidyalaya,0
+Untitled,"",Draft,Pending,Manage team,10/20/2024 16:55:20,"","",,"","",Yash vardhan,Yadav,yashvardhanyadav8@gmail.com,,"","",Indian Institute of Technology Kharagpur,0
+AI-Based Résumé Builder,"",Draft,Pending,Manage team,10/21/2024 13:31:53,"Inspiration
+
+What it does
+
+The Idea Behind the AI-Based Résumé Builder
+The reason behind creating the AI-Based Résumé Builder was through an investigation of issues job seekers encounter when attempting to present their skills and experiences in an efficient manner. Due to various barriers, especially many underrepresented groups within technology, it proves hard for them to write an impressive résumé that stands out in the eyes of employers. I wanted to create a solution that democratized quality access to résumé building where users may hold their heads up tall in the face of the job market.
+
+What It Does
+It is a web-based AI-Based Résumé Builder that enables users to create their own career-specific résumes in a twinkle of an eye. A user shall complete an intuitive form with all the information, and there one goes getting recommendations generated by AI but tuned to the specifications of job descriptions with the tool producing more effective wording and bringing out relevant skills to be added to the résumés, along with the kind of industry-specific content that can be availed for uploading purposes.
+Besides, it offers customizable résumé templates, and after you get your résumé, you are given the opportunity to download your résumé in PDF or Word.
+
+How I Built It
+I developed the system as a combination of some technologies used for the frontend and backend, since it was mainly based on:
+
+Front-end: HTML, CSS, and JavaScript for the user interface; dynamic elements used React.js .
+Back-end: Flask was used for server requests and processing user inputs.
+AI was integrated using OpenAI's GPT-3, which generated résumé suggestions based on user data and job descriptions.
+The SQLite database was used to store user data and résumé templates.
+File Generation: To generate the final downloadable PDF of the résumé, WeasyPrint was used.
+Challenges I Ran Into
+There were a few challenges that I encountered during the development process:
+NLP Integration: More fine-tuning and testing had to be conducted on the model in order to ensure that the AI suggestions were relevant and accurate.
+User Experience: Several iterations were required in designing an intuitive user interface that was functional and aesthetically pleasing.
+Template Personalization: It took me and the whole team lots of time to produce several professional resume templates that catered to different users' tastes.
+Achievements I Am Proud Of
+Special pride is taken in AI suggestions that have been integrated with very substantive enhancements to the quality of the résumé it generates. Encouraging feedback from the first batch of users validating that the tool really helped them stand out in their job applications was particularly satisfying. Actually completing the project well within time during the hackathon was also a good success.
+Through this project, I learned about the intricacies of NLP and how to build on integrating AI with a web application. I learned valuable lessons regarding user experience design, with the need for iterative testing when refining both functionality and aesthetics. This project polished teamwork and communication skills.
+
+Future Plans for Untitled
+I will continue with improving the AI model to suggest even better résumés and also enhance features in the platform. Some of the possible upgrades include the following:
+
+I could include job matching through a user profile.
+The inclusion of cover letter generation as part of the application package
+Feedback mechanisms on the side of the users to enable further refinement of the experience continually
+Incorporating partnerships with educational institutions or organizations to expand the scope of outreach and opening the doors to more potential job seekers to reach.
+","",,"","react, gemini, api, javascript, jsx, html5, css3",Sunanda,Manne,sunandamanne616@gmail.com,,"","","PDA, PDA college of engineering",1,Rayyan,Jafri,rayyanjafri17@gmail.com
+Untitled,"",Draft,Pending,Manage team,10/21/2024 19:26:57,"","",,"","",Urushihara,Sharp,darkfairykitten@outlook.com,,"","","The Circle School, mechanicsburg area senor high school",2,Lucy,White,avmoongirl@gmail.com,Queen,Penguin104,queenpenguin104@gmail.com
