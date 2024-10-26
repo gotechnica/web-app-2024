@@ -113,7 +113,7 @@ csv()
             end_time: new Date(demoTime.getTime() + lengthOfMeeting * 60000),
             prize_category: prizeName,
             sponsor_name: sponsName,
-            location: isVirtual ? linkDict[prizes[i].trim()] : getGroupTable(item["Project Title"]),
+            location: isVirtual ? null : getGroupTable(item["Project Title"]),
           });
         }
 
