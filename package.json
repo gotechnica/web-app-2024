@@ -1,0 +1,15 @@
+{
+  "name": "expo-2024",
+  "version": "1.0.0",
+  "description": "This holds all stuff for expo!",
+  "main": "in_person_assign.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}

@@ -1,7 +1,7 @@
 const csv = require("csvtojson");
 const fs = require("fs");
 const { exit } = require("process");
-const devpostFile = "testdata.csv";
+const devpostFile = "testdata3.csv";
 const numRooms = 2;
 const lengthOfMeeting = 5;
 let startTime = new Date(2024, 9, 26, 12, 0);
